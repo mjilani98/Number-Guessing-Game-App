@@ -46,6 +46,8 @@
         android:layout_below="@id/txtViewGuessLeft"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textAlignment="center"
         android:background="@color/white" />
 
     <!--Response-->
@@ -65,6 +67,7 @@
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         android:backgroundTint="@color/light_red8"
+        android:textAlignment="center"
         android:textSize="20dp"
         android:text="Submit"/>
 
